@@ -1,0 +1,19 @@
+{
+  "name": "backendapicors",
+  "version": "1.0.0",
+  "description": "desenvolvendo uma api com fins didáticos para criar uma rota get com array",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "keywords": [],
+  "author": "Tec Des Senai",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
