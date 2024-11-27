@@ -42,9 +42,18 @@ function clearControls(){
     inputName.value = ""
 }
 
+function initializeControls(){
+    const btnCadastrar = document.getElementById('cadProducts');
+    // const btndeletar = document.getElementById('delProducts')
+
+    btnCadastrar.onclick= ()=>{createdProducts()};
+
+}
+
 function main(){
     getProducts()
     clearControls()
+    initializeControls()
 }
 
 main();
