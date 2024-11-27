@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script> -->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="main.js"></script>
-    <title>Atividade 08 - Frontend Rotas com AXIOS</title>
+    <title>Cadastro utilizando Rotas com Axios</title>
 </head>
 <body>
-    <input type="text" name="name" id="name">
-    <button onclick="createdProducts()">Cadastrar novo Produto</button>
-    <button onclick="deleteProducts()">Deletar o item 2</button>
+    <input type="text" id="name">
+    <button id="cadProducts">Cadastrar Produto</button>
+    <button id="delProducts">Deletar por ID</button>
     <div id="content"></div>
 </body>
 </html>
